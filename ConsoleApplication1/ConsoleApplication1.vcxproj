@@ -129,9 +129,6 @@
   <ItemGroup>
     <ClCompile Include="compress.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
-    <ClCompile Include="FileName.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="randomNumber.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
